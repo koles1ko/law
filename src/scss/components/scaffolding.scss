@@ -26,13 +26,12 @@ li {
   padding: 0;
   list-style: none;
 }
-// body {
-//   font-family: ;
-//   font-weight: ;
-//   font-size: ;
-//   line-height: ;
-//   color: ;
-// }
+body {
+  font-family: 'proxi';
+  font-weight: 4s00;
+  font-size: 16px;
+  color: $main-color;
+}
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -44,8 +43,29 @@ li {
 .footer {
   flex: 0 0 auto;
 }
-// .container {
-//   max-width: ;
-//   margin: 0 auto;
-//   padding: ;
-// }
+.container {
+  max-width: 975px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.red-btn{
+  border-radius: 5px;
+  background: linear-gradient( 69deg, rgb(193,23,23) 0%, rgb(228,38,38) 100%);
+  padding: 8px 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+}
+.light-red{
+  background: linear-gradient(90deg, rgb(193,11,11) 0%, rgb(228,38,38) 100%);
+  border-radius: 5px;
+  padding: 23px 45px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.section-title{
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}

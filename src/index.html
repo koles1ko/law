@@ -313,7 +313,7 @@
                     <img src="img/raster/advantages/advan-2.png" alt="man">
                     <div class="advantages__stats-info"><span>137 000</span>- женщин</div>
                   </div>
-                  
+
                   <div class="advantages__stats-item">
                     <img src="img/raster/advantages/advan-3.png" alt="man">
                     <div class="advantages__stats-info"><span>63 000</span>- семейных пар</div>
@@ -325,27 +325,29 @@
                   </div>
 
                 </div>
-                <a href="#" class="">Узнать больше!</a>
+                <a href="#" class="red-btn">Узнать больше!</a>
               </div>
             </div>
           </div>
         </section>
-        <section class="app">
+        <section class="app" style="background-image: url(img/raster/app/app-bg.jpg);">
           <div class="container">
-            <div class="app__info">
-              <h3 class="app__title"></h3>
-              <ol>
-                <li>Скачайте наше <a href="#">приложение Reworld</a> для iOS или Android</li>
-                <li>Посмотрите один из 150 познавательных видеороликов.</li>
-                <li>Введите Ваш номер телефона и с Вами свяжется юрист для консультации</li>
-              </ol>
-            </div>
-            <div class="app__link">
-              <div class="app__img">
-                <img src="img/raster/app/app-android.png" alt="PlayMarket">
+            <div class="app__inner">
+              <div class="app__info">
+                <h3 class="app__title">Хотите получить бесплатную юридическую консультацию?</h3>
+                <ol>
+                  <li> Скачайте наше <a href="#">приложение Reworld</a> для iOS или Android</li>
+                  <li> Посмотрите один из 150 познавательных видеороликов.</li>
+                  <li> Введите Ваш номер телефона и с Вами свяжется юрист для консультации</li>
+                </ol>
               </div>
-              <div class="app__img">
-                <img src="img/raster/app/app-ios.png" alt="AppStore">
+              <div class="app__link">
+                <a href="#" class="app__img">
+                  <img src="img/raster/app/app-android.png" alt="PlayMarket">
+                </a>
+                <a href="#" class="app__img">
+                  <img src="img/raster/app/app-ios.png" alt="AppStore">
+                </a>
               </div>
             </div>
           </div>
@@ -353,19 +355,19 @@
         <section class="reviews">
           <h3 class="section-title">Отзывы</h3>
           <div class="reviews__buttons">
-            <button>Здравоохранение</button>
-            <button>Бизнес</button>
-            <button>Семья</button>
-            <button>ЖКХ</button>
-            <button>Недвижимость</button>
-            <button>Все</button>
+            <button type="button" data-filter=".category-c" >Здравоохранение</button>
+            <button type="button" data-filter=".category-c" >Бизнес</button>
+            <button type="button" data-filter=".category-c" >Семья</button>
+            <button type="button" data-filter=".category-c" >ЖКХ</button>
+            <button type="button" data-filter=".category-c" >Недвижимость</button>
+            <button type="button" data-filter=".category-c" >Все</button>
           </div>
-          <div class="reviews__aid"></div>
-          <div class="reviews__buisnes"></div>
-          <div class="reviews__family"></div>
-          <div class="reviews__komm"></div>
-          <div class="reviews__estate"></div>
-          <div class="reviews__all"></div>
+          <div data-order="2" class="mix reviews__aid"></div>
+          <div data-order="2" class="mix reviews__buisnes"></div>
+          <div data-order="2" class="mix reviews__family"></div>
+          <div data-order="2" class="mix reviews__komm"></div>
+          <div data-order="2" class="mix reviews__estate"></div>
+          <div class="mix reviews__all" data-order="2"></div>
         </section>
         <section class="partners">
           <div class="container">

@@ -4,6 +4,9 @@ console.log(divide(34, 2));
 $(function () {
 
 
+  //var mixer = mixitup('.container');  .container -родитель блоков которые будем миксовать
+  // миксер элементов
+
   //  $(".test").on('click', function(){
   //    $(".test").toggleClass("active");
   //  }); 

@@ -4,8 +4,42 @@ console.log(divide(34, 2));
 $(function () {
 
 
-  //var mixer = mixitup('.container');  .container -родитель блоков которые будем миксовать
+
+    $(".reviews__button").on('click', function(){
+      $(".reviews__button").removeClass("active");
+      $(this).addClass("active");
+    }); 
+
+    $('.reviews__items').slick({
+      dots: false,
+      arrows: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+    });
+
+  var mixer = mixitup('.reviews__items', {
+    
+  }); 
+
+  //   $('.reviews__items').on('mixEnd', function() {
+  //     $('.reviews__items').slick('slickFilter', '.activemixclass');
+  // });
+
+     
+
+  //var mixer = mixitup('.container'); 
+  // ".container" -родитель блоков которые будем миксовать
   // миксер элементов
+
+//----------------------------------
+
+  // $(".reviews__button").on('click', function(){
+  //   $(".reviews__button").removeClass("active");
+  //   $(this).addClass("active");
+  // }); 
+  // добавляем и убираем класс
+
+//----------------------------------
 
   //  $(".test").on('click', function(){
   //    $(".test").toggleClass("active");

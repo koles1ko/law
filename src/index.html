@@ -355,19 +355,103 @@
         <section class="reviews">
           <h3 class="section-title">Отзывы</h3>
           <div class="reviews__buttons">
-            <button type="button" data-filter=".category-c" >Здравоохранение</button>
-            <button type="button" data-filter=".category-c" >Бизнес</button>
-            <button type="button" data-filter=".category-c" >Семья</button>
-            <button type="button" data-filter=".category-c" >ЖКХ</button>
-            <button type="button" data-filter=".category-c" >Недвижимость</button>
-            <button type="button" data-filter=".category-c" >Все</button>
+            <button class="reviews__button" type="button" data-filter=".reviews__aid">Здравоохранение</button>
+            <button class="reviews__button" type="button" data-filter=".reviews__buisnes">Бизнес</button>
+            <button class="reviews__button" type="button" data-filter=".reviews__family">Семья</button>
+            <button class="reviews__button" type="button" data-filter=".reviews__komm">ЖКХ</button>
+            <button class="reviews__button" type="button" data-filter=".reviews__estate">Недвижимость</button>
+            <button class="reviews__button active" type="button" data-filter=".reviews__all">Все</button>
           </div>
-          <div data-order="2" class="mix reviews__aid"></div>
-          <div data-order="2" class="mix reviews__buisnes"></div>
-          <div data-order="2" class="mix reviews__family"></div>
-          <div data-order="2" class="mix reviews__komm"></div>
-          <div data-order="2" class="mix reviews__estate"></div>
-          <div class="mix reviews__all" data-order="2"></div>
+
+          <div class="test">
+             <!-- <button class="abs-test prev">prev</button> -->
+            <div class="reviews__items">
+
+             
+              <div class="mix reviews__aid reviews__item reviews__all" data-order="1">
+                <div class="reviews__item-name"></div>
+                <div class="reviews__item-cont"></div>
+              </div>
+              <div class="mix reviews__buisnes reviews__item reviews__all" data-order="2">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__family reviews__item reviews__all" data-order="3">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__komm reviews__item reviews__all" data-order="4">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__estate reviews__item reviews__all" data-order="5">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__aid reviews__item reviews__all" data-order="1">
+                <div class="reviews__item-name"></div>
+                <div class="reviews__item-cont"></div>
+              </div>
+              <div class="mix reviews__buisnes reviews__item reviews__all" data-order="2">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__family reviews__item reviews__all" data-order="3">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__komm reviews__item reviews__all" data-order="4">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__estate reviews__item reviews__all" data-order="5">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__aid reviews__item reviews__all" data-order="1">
+                <div class="reviews__item-name"></div>
+                <div class="reviews__item-cont"></div>
+              </div>
+              <div class="mix reviews__buisnes reviews__item reviews__all" data-order="2">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__family reviews__item reviews__all" data-order="3">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__komm reviews__item reviews__all" data-order="4">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__estate reviews__item" data-order="5">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__aid reviews__item" data-order="1">
+                <div class="reviews__item-name"></div>
+                <div class="reviews__item-cont"></div>
+              </div>
+              <div class="mix reviews__buisnes reviews__item" data-order="2">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__family reviews__item" data-order="3">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__komm reviews__item" data-order="4">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+              <div class="mix reviews__estate reviews__item" data-order="5">
+                <div class="reviews__item-cont"></div>
+                <div class="reviews__item-name"></div>
+              </div>
+             
+            <!-- </div> <button class="abs-test next">next</button> -->
+          </div>
+
         </section>
         <section class="partners">
           <div class="container">
@@ -528,8 +612,8 @@
 
   <!-- Custom scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/main.min.js"></script>
   <script src="js/libs.min.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
 
 </html>

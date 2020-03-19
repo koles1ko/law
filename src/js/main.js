@@ -10,16 +10,25 @@ $(function () {
       $(this).addClass("active");
     }); 
 
-    $('.reviews__items').slick({
+
+    var mixer = mixitup('.reviews__items'); 
+
+    $('.partner__slider').slick({
       dots: false,
       arrows: true,
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
     });
 
-  var mixer = mixitup('.reviews__items', {
-    
-  }); 
+    // $(".btn-check").on('click', function(){
+    //   $(".btn-check").toggleClass("active");
+    //   $(".products__info").toggleClass("active");
+    // }); 
+
+    $(".btn-check").on('click', function(){
+      $(".btn-check").toggleClass("active");
+      $(".products__info").slideToggle();
+    }); 
 
   //   $('.reviews__items').on('mixEnd', function() {
   //     $('.reviews__items').slick('slickFilter', '.activemixclass');

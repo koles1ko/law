@@ -209,6 +209,7 @@ header{
     align-items: center;
   }
   &__table {
+    margin-right: 20px;
     table{
       table-layout: fixed;
       border-collapse: collapse;
@@ -497,6 +498,7 @@ header{
       background-color: transparent;
       transition: .2s;
       font-weight: 700;
+      &:hover{cursor: pointer;}
     }
     .btn-rates{
       border-color: $red;
@@ -589,9 +591,6 @@ header{
     &__services-cost {
       font-weight: 700;
     }
-    &__price {
-
-    }
     &__price-cost {
       font-size: 13px;
       text-align: center;
@@ -615,6 +614,7 @@ header{
       margin: 0 auto;
       padding: 13px 15px 15px 15px;
       border-radius: 5px;
+      &:hover{cursor:pointer;}
       &--red{background-color: #ff3104;}
       &--green{background-color: #009000;}
       &--blue{background-color: #00216e;}
@@ -645,8 +645,6 @@ header{
     line-height: 23px;
     font-weight: 700;
     margin-bottom: 28px;
-  }
-  &__form {
   }
   &__form-description{
     font-size: 14px;
@@ -689,6 +687,7 @@ header{
     outline: none;
     border: none;
     margin-top: 30px;
+    &:hover{cursor: pointer;}
   }
   &__form-footer {
     text-align: center;

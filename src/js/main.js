@@ -27,7 +27,8 @@ $(function () {
 
     $(".btn-check").on('click', function(){
       $(".btn-check").toggleClass("active");
-      $(".products__info").slideToggle();
+      $(".products__info--slider").toggleClass("active");
+      $(".products__item").toggleClass("active");
     }); 
 
   //   $('.reviews__items').on('mixEnd', function() {
